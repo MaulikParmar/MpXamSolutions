@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MpXamSolutionDemo"
+             xmlns:control="clr-namespace:MpXamSolution.Controls;assembly=MpXamSolution"
+             x:Class="MpXamSolutionDemo.MainPage">
+
+    <StackLayout>
+        <control:MpLabel BindingProperty="FirstName" />
+        <control:MpLabel BindingProperty="LastName" />
+        <Button Text="Validate" x:Name="btn" />
+    </StackLayout>
+
+</ContentPage>
